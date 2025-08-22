@@ -10,13 +10,11 @@ public class Main {
         p1.estadoAtual();
 
 
-
         ContaBanco p2 = new ContaBanco();
         p2.setNumConta(22222);
         p2.setDono("Smiriana");
         p2.abrirConta("CP");
         p2.depositar(500);
-        p2.sacar(100);
         p2.estadoAtual();
     }
 }
