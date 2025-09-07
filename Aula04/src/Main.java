@@ -6,15 +6,15 @@ public class Main {
         p1.abrirConta("CC");
         p1.depositar(100);
         p1.sacar(25);
-        p1.fecharConta();
         p1.estadoAtual();
 
 
-        ContaBanco p2 = new ContaBanco();
+        /*ContaBanco p2 = new ContaBanco();
         p2.setNumConta(22222);
         p2.setDono("Smiriana");
         p2.abrirConta("CP");
         p2.depositar(500);
-        p2.estadoAtual();
+        p2.consultarSaldo();
+        p2.estadoAtual();*/
     }
 }

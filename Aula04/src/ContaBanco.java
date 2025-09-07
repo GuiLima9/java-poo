@@ -77,6 +77,7 @@ public final class ContaBanco implements CaixaEletronico {
             this.setSaldo(50);
         }
         System.out.println("Conta Aberta com sucesso!");
+        
     }
 
     //fechar conta
@@ -90,6 +91,7 @@ public final class ContaBanco implements CaixaEletronico {
             System.out.println("Conta fechada com sucesso!");
         }
     }
+
 
     //depositar
     @Override
